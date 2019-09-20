@@ -1,0 +1,220 @@
+-----------------------------------------------------------------------------
+-- This is ASPECT, the Advanced Solver for Problems in Earth's ConvecTion.
+--     . version 2.2.0-pre (master, 55731ba)
+--     . using deal.II 9.1.1
+--     .       with 32 bit indices and vectorization level 1 (128 bits)
+--     . using Trilinos 12.10.1
+--     . using p4est 2.2.0
+--     . running in OPTIMIZED mode
+--     . running with 10 MPI processes
+-----------------------------------------------------------------------------
+
+
+   Loading Ascii data initial file /home/sungho/korea_stressfield/data/initial_blob.txt.
+
+-----------------------------------------------------------------------------
+-- For information on how to cite ASPECT, see:
+--   https://aspect.geodynamics.org/citing.html?ver=2.2.0-pre&sha=55731ba&src=code
+-----------------------------------------------------------------------------
+Number of active cells: 32,000 (on 1 levels)
+Number of degrees of freedom: 1,649,307 (807,003+35,301+269,001+269,001+269,001)
+
+*** Timestep 0:  t=0 years
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 92+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 1
+      Relative nonlinear residual (total system) after nonlinear iteration 1: 1
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 121+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.053315
+      Relative nonlinear residual (total system) after nonlinear iteration 2: 0.053315
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 107+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.00240245
+      Relative nonlinear residual (total system) after nonlinear iteration 3: 0.00240245
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 104+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.00162938
+      Relative nonlinear residual (total system) after nonlinear iteration 4: 0.00162938
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 99+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.00105049
+      Relative nonlinear residual (total system) after nonlinear iteration 5: 0.00105049
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 95+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.00081473
+      Relative nonlinear residual (total system) after nonlinear iteration 6: 0.00081473
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 90+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.000640009
+      Relative nonlinear residual (total system) after nonlinear iteration 7: 0.000640009
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 88+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.000492706
+      Relative nonlinear residual (total system) after nonlinear iteration 8: 0.000492706
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 83+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.000369943
+      Relative nonlinear residual (total system) after nonlinear iteration 9: 0.000369943
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 79+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.000272243
+      Relative nonlinear residual (total system) after nonlinear iteration 10: 0.000272243
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 77+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.000197353
+      Relative nonlinear residual (total system) after nonlinear iteration 11: 0.000197353
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 75+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.000141471
+      Relative nonlinear residual (total system) after nonlinear iteration 12: 0.000141471
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 73+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 0.000100568
+      Relative nonlinear residual (total system) after nonlinear iteration 13: 0.000100568
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 70+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 7.10428e-05
+      Relative nonlinear residual (total system) after nonlinear iteration 14: 7.10428e-05
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 66+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 4.9946e-05
+      Relative nonlinear residual (total system) after nonlinear iteration 15: 4.9946e-05
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 64+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 3.49847e-05
+      Relative nonlinear residual (total system) after nonlinear iteration 16: 3.49847e-05
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 62+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 2.4435e-05
+      Relative nonlinear residual (total system) after nonlinear iteration 17: 2.4435e-05
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 60+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 1.70283e-05
+      Relative nonlinear residual (total system) after nonlinear iteration 18: 1.70283e-05
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 58+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 1.18457e-05
+      Relative nonlinear residual (total system) after nonlinear iteration 19: 1.18457e-05
+
+   Solving temperature system... 0 iterations.
+   Solving UC system ... 0 iterations.
+   Solving LC system ... 0 iterations.
+   Rebuilding Stokes preconditioner...
+   Solving Stokes system... 56+0 iterations.
+      Relative nonlinear residuals (temperature, compositional fields, Stokes system): 4.00959e-16, 4.80692e-16, 2.96225e-16, 8.2287e-06
+      Relative nonlinear residual (total system) after nonlinear iteration 20: 8.2287e-06
+
+
+   Postprocessing:
+     Radial RMS, tangential RMS, total RMS velocity: 0.0107 m/yr, 0.0224 m/yr, 0.0248 m/yr
+     Temperature min/avg/max:                        273 K, 1548 K, 1973 K
+     Heat fluxes through boundary parts:             0 W, 0 W, 0 W, 0 W, -4.668e+10 W, 6.058e+10 W
+     Topography min/max:                             0 m, 0 m
+     Pressure at top/bottom of domain:               -9.801e+06 Pa, 1.229e+10 Pa
+     Computing dynamic topography                    
+     Writing graphical output:                       output_simple2/solution/solution-00000
+
+Termination requested by criterion: end time
+
+
++----------------------------------------------+------------+------------+
+| Total wallclock time elapsed since start     |       427s |            |
+|                                              |            |            |
+| Section                          | no. calls |  wall time | % of total |
++----------------------------------+-----------+------------+------------+
+| Assemble Stokes system           |        20 |      74.1s |        17% |
+| Assemble composition system      |        40 |      62.9s |        15% |
+| Assemble temperature system      |        20 |      33.4s |       7.8% |
+| Build Stokes preconditioner      |        20 |      51.6s |        12% |
+| Build composition preconditioner |        40 |       9.1s |       2.1% |
+| Build temperature preconditioner |        20 |      4.35s |         1% |
+| Initialization                   |         1 |      2.08s |      0.49% |
+| Postprocessing                   |         1 |      3.73s |      0.88% |
+| Setup dof systems                |         1 |      2.29s |      0.54% |
+| Setup initial conditions         |         1 |     0.421s |         0% |
+| Setup matrices                   |         1 |      1.77s |      0.41% |
+| Solve Stokes system              |        20 |       179s |        42% |
+| Solve composition system         |        40 |     0.582s |      0.14% |
+| Solve temperature system         |        20 |     0.298s |         0% |
++----------------------------------+-----------+------------+------------+
+
+-----------------------------------------------------------------------------
+-- For information on how to cite ASPECT, see:
+--   https://aspect.geodynamics.org/citing.html?ver=2.2.0-pre&sha=55731ba&src=code
+-----------------------------------------------------------------------------
